@@ -1,0 +1,71 @@
+//font and color code for reuse
+@font-face{
+    font-family: f1;
+    src: url(/assets/fonts/Ubuntu-Bold.ttf);
+}
+@font-face {
+    font-family:f2 ;
+    src: url(/assets/fonts/Ubuntu-Regular.ttf);
+}
+body{
+    padding: 0;
+    margin: 0;
+    font-family: f2;
+    background-color:$Magnolia;
+}
+// colors denoted in clname
+ $Marineblue: hsl(213, 96%, 18%);
+ $Purplishblue: hsl(243, 100%, 62%);
+ $Pastelblue: hsl(228, 100%, 84%);
+ $Lighblue: hsl(206, 94%, 87%);
+$Strawberryred: hsl(354, 84%, 57%);
+// colors 2
+$Coolgray: hsl(231, 11%, 63%);
+$Lightgray: hsl(229, 24%, 87%);
+$Magnolia: hsl(217, 100%, 97%);
+$Alabaster: hsl(231, 100%, 99%);
+$White: hsl(0, 0%, 100%);
+//style for background image moblie--
+.bg_mobile{
+    width: 100vw;
+    height: 30vh;
+    background-image: url(/assets/images/bg-sidebar-mobile.svg);
+    background-position:inherit;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.num{
+    border: 0.1px solid $White;
+    width: 7.7vw;
+    height: 4.8vh;
+    margin: 3%;
+    border-radius: 50%;
+    font-size:30%;
+    padding-top: 1%;
+    color: $White;
+    text-align: center;
+    text-decoration: none;
+    margin-bottom: 20%;
+}
+//style for from
+.supportform{
+    display: flex;
+    justify-content: center;
+    z-index: 2;
+    display: flex;
+    background-color:$Magnolia;
+} 
+.form{
+    width: 75vw;
+    height: 60vh;
+    position: fixed;
+    top: 22%;
+    background-color: $White;
+    border-radius: 4%;
+    box-shadow: 1px 1px 8px #888888;
+    
+    
+}

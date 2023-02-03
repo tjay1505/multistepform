@@ -1,0 +1,57 @@
+@font-face {
+  font-family: f1;
+  src: url(/assets/fonts/Ubuntu-Bold.ttf);
+}
+@font-face {
+  font-family: f2;
+  src: url(/assets/fonts/Ubuntu-Regular.ttf);
+}
+body {
+  padding: 0;
+  margin: 0;
+  font-family: f2;
+  background-color: ma;
+}
+
+.bg_mobile {
+  width: 100vw;
+  height: 30vh;
+  background-image: url(/assets/images/bg-sidebar-mobile.svg);
+  background-position: inherit;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1;
+}
+
+.num {
+  border: 0.1px solid hsl(0deg, 0%, 100%);
+  width: 7.7vw;
+  height: 4.8vh;
+  margin: 3%;
+  border-radius: 50%;
+  font-size: 30%;
+  padding-top: 1%;
+  color: hsl(0deg, 0%, 100%);
+  text-align: center;
+  text-decoration: none;
+  margin-bottom: 20%;
+}
+
+.supportform {
+  display: flex;
+  justify-content: center;
+  z-index: 2;
+  display: flex;
+}
+
+.form {
+  width: 75vw;
+  height: 60vh;
+  position: fixed;
+  top: 22%;
+  background-color: hsl(0deg, 0%, 100%);
+  border-radius: 4%;
+  box-shadow: 1px 1px 8px #888888;
+}/*# sourceMappingURL=index.css.map */
